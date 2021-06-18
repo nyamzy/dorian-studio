@@ -6,3 +6,11 @@
   background-image: url("../images/backgrounds/s_image.jpg");
   color: white;
 }
+#contact-us {
+  background-image: url("../images/backgrounds/c_image.jpg");
+  color: white;
+  background-color: inherit;
+}
+.form {
+  
+}
