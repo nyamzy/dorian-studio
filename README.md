@@ -12,10 +12,10 @@
 
 # Behavior Driven Development (BDD)
   This is how the website is supposed to work/behave:
-    - When you click on the live link below, it should take you to the landing page of Dorian Studio.
-    - The page should give different sections with different backgrounds.
-    - In 'Portfolio' section, when you hover over an image, there should be a white box that appears which indicates the name of the project.
-    - When you give a message in the 'Contact Us' section, a pop up message should appear thanking you for reaching out.
+  - When you click on the live link below, it should take you to the landing page of Dorian Studio.
+  - The page should give different sections with different backgrounds.
+  - In 'Portfolio' section, when you hover over an image, there should be a white box that appears which indicates the name of the project.
+  - When you give a message in the 'Contact Us' section, a pop up message should appear thanking you for reaching out.
 
 # Live Link
   [Dorian Studio] (http://nyamzy.github.io/dorian-studio)
