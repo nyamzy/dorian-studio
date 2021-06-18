@@ -28,6 +28,9 @@
   - Bootstrap
   - jQuery
 
+# Dependency
+  - This project includes some assets (such as background images) acquired from jonnygovish on GitHub. Here is the link (https://github.com/jonnygovish/IP3.git).
+
 # Contact Information
   For more information, please reach out to me via the following:
   - Mobile: +254710591028
