@@ -10,21 +10,33 @@ p {
 #welcome {
   background-image: url("../images/backgrounds/h_img.jpg");
   color: white;
-  padding: 50px;
-
+  display: grid;
+  padding: 320px;
 }
 #about {
-  padding: 50px;
+  padding: 150px;
 }
 #services {
   background-image: url("../images/backgrounds/s_image.jpg");
   color: white;
-  padding: 50px;
+  padding: 150px;
 }
 #contact-us {
   background-image: url("../images/backgrounds/c_image.jpg");
   color: white;
   padding: 50px;
+}
+#what-we-do {
+  padding: 100px;
+}
+#design {
+  display: none;
+}
+#dev {
+  display: none;
+}
+#product {
+  display: none;
 }
 .jobs {
   display: grid;
@@ -38,4 +50,18 @@ p {
   justify-content: center ;
   padding: 80px;
   grid-gap: 20px;
+}
+#name {
+  background-color: transparent;
+  text-shadow: white;
+}
+#email {
+  background-color: transparent;
+  color: white;
+}
+#message {
+  background-color: transparent;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
 }
