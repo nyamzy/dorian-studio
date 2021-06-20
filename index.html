@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="static/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="static/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="static/css/styles.css" type="text/css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="static/js/scripts.js"></script>
 
@@ -36,20 +36,28 @@
     <div id="what-we-do">
       <h2>WHAT WE DO</h2>
       <div class="jobs">
-        <div id="design">
+        <div id="design-pic">
           <image src="static/images/services_icons/design_icon.png">
+        </div>
+        <div id="design">
           <h3>DESIGN</h3>
           <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
           <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
+
+        <div id="dev-pic">
+          <image src="static/images/services_icons/dev_icon.png">
+        </div>
         <div id="dev">
           <h3>DEVELOPMENT</h3>
-          <image src="static/images/services_icons/dev_icon.png">
           <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
           <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-        <div id="product">
+
+        <div id="product-pic">
           <image src="static/images/services_icons/product_icon.png">
+        </div>
+        <div id="product">
           <h3>PRODUCT MANAGEMENT</h3>
           <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
           <p>This iterative process allows for changes as business requirements evolve.</p>
@@ -61,14 +69,14 @@
     <div id="portfolio">
       <h2>PORTFOLIO</h2>
       <div class="works">
-        <image src="static/images/portfolio/work1.jpg" alt="work1">
-        <image src="static/images/portfolio/work2.jpg" alt="work2">
-        <image src="static/images/portfolio/work3.jpg" alt="work3">
-        <image src="static/images/portfolio/work4.jpg" alt="work4">
-        <image src="static/images/portfolio/work5.jpg" alt="work5">
-        <image src="static/images/portfolio/work6.jpg" alt="work6">
-        <image src="static/images/portfolio/work7.jpg" alt="work7">
-        <image src="static/images/portfolio/work8.jpg" alt="work8">
+        <image src="static/images/portfolio/work1.jpg" alt="work1" id="work1">
+        <image src="static/images/portfolio/work2.jpg" alt="work2" id="work2">
+        <image src="static/images/portfolio/work3.jpg" alt="work3" id="work3">
+        <image src="static/images/portfolio/work4.jpg" alt="work4" id="work4">
+        <image src="static/images/portfolio/work5.jpg" alt="work5" id="work5">
+        <image src="static/images/portfolio/work6.jpg" alt="work6" id="work6">
+        <image src="static/images/portfolio/work7.jpg" alt="work7" id="work7">
+        <image src="static/images/portfolio/work8.jpg" alt="work8" id="work8">
       </div>
     </div>
     <div id="contact-us">
@@ -81,10 +89,26 @@
             <div class="col">
               <input type="email" id="email" placeholder="Email">
             </div>
-            <textarea name="message" rows="8" cols="40" placeholder="Your message here..."></textarea>
+            <textarea name="message" id="message" rows="8" cols="40" placeholder="Your message here..."></textarea>
             <button type="submit" class="btn">Send</button>
           </div>
         </form>
+    </div>
+    <div id="socials">
+      <image src="static/images/social_icons/behance.png">
+      <image src="static/images/social_icons/dribble.png">
+      <image src="static/images/social_icons/facebook.png">
+      <image src="static/images/social_icons/flickr.png">
+      <image src="static/images/social_icons/g_plus.png">
+      <image src="static/images/social_icons/pinterest.png">
+      <image src="static/images/social_icons/skype.png">
+      <image src="static/images/social_icons/stumble_upon.png">
+      <image src="static/images/social_icons/twitter.png">
+      <image src="static/images/social_icons/you_tube.png">
+    </div>
+    <div id="trademark">
+      <p>DORIAN STUDIO</p>
+      <p>2021</p>
     </div>
 
   </body>

@@ -26,6 +26,13 @@ p {
   color: white;
   padding: 50px;
 }
+#socials {
+  display: grid;
+  padding: 50px;
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
 #what-we-do {
   padding: 100px;
 }
