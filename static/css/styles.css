@@ -11,7 +11,15 @@ p {
   background-image: url("../images/backgrounds/h_img.jpg");
   color: white;
   display: grid;
-  padding: 320px;
+  padding: 160px;
+}
+#logo {
+  text-align: center;
+  padding: 50px;
+}
+#mouse {
+  text-align: center;
+  padding-top: 250px;
 }
 #about {
   padding: 150px;
@@ -38,12 +46,18 @@ p {
 }
 #design {
   display: none;
+  text-align: center;
+  width: 33%;
 }
 #dev {
   display: none;
+  text-align: center;
+  width: 33%;
 }
 #product {
   display: none;
+  text-align: center;
+  width: 33%;
 }
 .jobs {
   display: grid;
@@ -69,6 +83,62 @@ p {
 #message {
   background-color: transparent;
   color: white;
+}
+.pr1 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr2 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr3 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr4 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr5 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr6 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr7 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.pr8 {
+  color: white;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  display: none;
 }
 @media screen and (max-width: 1000px) {
 }
