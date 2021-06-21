@@ -60,10 +60,7 @@ p {
   width: 33%;
 }
 .jobs {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-evenly;
-  padding: 80px;
+  text-align: center;
 }
 .works {
   display: grid;
